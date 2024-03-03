@@ -73,7 +73,7 @@ public class EmployeeTCPServer
                         }
                         else
                         {
-                            Console.WriteLine("Работник не найден");
+                            Console.WriteLine($"Работник не найден: {employeeName}");
                             streamWriter.WriteLine("Работник не найден");
                         }
                     }
